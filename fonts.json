@@ -277,6 +277,29 @@
    "updated": "2026-10-23"
   },
   {
+   "id": "IndigoChisel",
+   "name": "Indigo Chisel",
+   "native": "ຈັນທະລາຣາມ",
+   "native_lang": "lo",
+   "category": "traditional",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Heavy, wide temple-banner lettering with sharp chisel and wedge terminals, folded turns and shallow beak curls.",
+   "repo": "https://github.com/rcampbellbassac/IndigoChisel",
+   "site": "https://rcampbellbassac.github.io/IndigoChisel/",
+   "woff2": "https://rcampbellbassac.github.io/IndigoChisel/fonts/IndigoChisel-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/IndigoChisel/releases/latest/download/IndigoChisel.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
    "id": "Kamphaeng",
    "name": "Kamphaeng",
    "native": "ກຳແພງ",
@@ -461,6 +484,29 @@
    "updated": "2026-10-23"
   },
   {
+   "id": "NonSawat",
+   "name": "Non Sawat",
+   "native": "ໂນນສະຫວາດ",
+   "native_lang": "lo",
+   "category": "script",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Slender school-wall calligraphy with very long ascending strokes on ໂ and ຖ.",
+   "repo": "https://github.com/rcampbellbassac/NonSawat",
+   "site": "https://rcampbellbassac.github.io/NonSawat/",
+   "woff2": "https://rcampbellbassac.github.io/NonSawat/fonts/NonSawat-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/NonSawat/releases/latest/download/NonSawat.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
    "id": "Paksong",
    "name": "Paksong",
    "native": "ປາກຊ່ອງ",
@@ -599,6 +645,29 @@
    "updated": "2026-10-23"
   },
   {
+   "id": "StoneFlourish",
+   "name": "Stone Flourish",
+   "native": "ຫີນ",
+   "native_lang": "lo",
+   "category": "script",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Tall, slender calligraphic letters painted on stone with thick-thin contrast and spiralling descenders.",
+   "repo": "https://github.com/rcampbellbassac/StoneFlourish",
+   "site": "https://rcampbellbassac.github.io/StoneFlourish/",
+   "woff2": "https://rcampbellbassac.github.io/StoneFlourish/fonts/StoneFlourish-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/StoneFlourish/releases/latest/download/StoneFlourish.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
    "id": "SuanAhan",
    "name": "Suan Ahan",
    "native": "ສວນອາຫານ",
@@ -640,6 +709,29 @@
    "site": "https://rcampbellbassac.github.io/Suksa/",
    "woff2": "https://rcampbellbassac.github.io/Suksa/fonts/Suksa-Regular.woff2",
    "download": "https://github.com/rcampbellbassac/Suksa/releases/latest/download/Suksa.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "TaKot",
+   "name": "Ta Kot",
+   "native": "ຕາກົດ",
+   "native_lang": "lo",
+   "category": "traditional",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Roadside school sign: sculpted traditional bold with big curled heads, pinched loops and long swept tails on ໂ ງ ຽ ຖ.",
+   "repo": "https://github.com/rcampbellbassac/TaKot",
+   "site": "https://rcampbellbassac.github.io/TaKot/",
+   "woff2": "https://rcampbellbassac.github.io/TaKot/fonts/TaKot-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/TaKot/releases/latest/download/TaKot.zip",
    "license": "OFL-1.1",
    "made_by": "Robert Campbell, Claude",
    "updated": "2026-10-23"
@@ -760,6 +852,29 @@
    "updated": "2026-10-23"
   },
   {
+   "id": "TimberBrush",
+   "name": "Timber Brush",
+   "native": "ຕ້ອນຮັບ",
+   "native_lang": "lo",
+   "category": "brush",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Compact, squat hand-lettering on brown timber: forceful thick stems, short chubby hooks, tight spacing, few flourishes.",
+   "repo": "https://github.com/rcampbellbassac/TimberBrush",
+   "site": "https://rcampbellbassac.github.io/TimberBrush/",
+   "woff2": "https://rcampbellbassac.github.io/TimberBrush/fonts/TimberBrush-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/TimberBrush/releases/latest/download/TimberBrush.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
    "id": "TukTuk",
    "name": "Tuk Tuk",
    "native": "ตุ๊กตุ๊ก",
@@ -806,6 +921,29 @@
    "updated": "2026-10-23"
   },
   {
+   "id": "VillageNotice",
+   "name": "Village Notice",
+   "native": "ບ້ານ",
+   "native_lang": "lo",
+   "category": "handwritten",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Weathered village notice in fine folk lettering: light even strokes, small curled heads.",
+   "repo": "https://github.com/rcampbellbassac/VillageNotice",
+   "site": "https://rcampbellbassac.github.io/VillageNotice/",
+   "woff2": "https://rcampbellbassac.github.io/VillageNotice/fonts/VillageNotice-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/VillageNotice/releases/latest/download/VillageNotice.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
    "id": "WatPhou",
    "name": "Wat Phou",
    "native": "ວັດພູ",
@@ -824,6 +962,29 @@
    "site": "https://rcampbellbassac.github.io/WatPhou/",
    "woff2": "https://rcampbellbassac.github.io/WatPhou/fonts/WatPhou-Regular.woff2",
    "download": "https://github.com/rcampbellbassac/WatPhou/releases/latest/download/WatPhou.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "WoodlandHook",
+   "name": "Woodland Hook",
+   "native": "ຈຸດຊົມວິວ",
+   "native_lang": "lo",
+   "category": "painted",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Blocky painted strokes turning into scooped, inward-facing hooks with softly swollen tips.",
+   "repo": "https://github.com/rcampbellbassac/WoodlandHook",
+   "site": "https://rcampbellbassac.github.io/WoodlandHook/",
+   "woff2": "https://rcampbellbassac.github.io/WoodlandHook/fonts/WoodlandHook-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/WoodlandHook/releases/latest/download/WoodlandHook.zip",
    "license": "OFL-1.1",
    "made_by": "Robert Campbell, Claude",
    "updated": "2026-10-23"
