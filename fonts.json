@@ -47,6 +47,29 @@
    "updated": "2026-10-23"
   },
   {
+   "id": "BanGuesthouse",
+   "name": "Ban Guesthouse",
+   "native": "ນ້ຳຕົກ",
+   "native_lang": "lo",
+   "category": "handwritten",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Calm folk lettering cut from board: even round strokes, open counters, small blunt heads, unhurried rhythm.",
+   "repo": "https://github.com/rcampbellbassac/BanGuesthouse",
+   "site": "https://rcampbellbassac.github.io/BanGuesthouse/",
+   "woff2": "https://rcampbellbassac.github.io/BanGuesthouse/fonts/BanGuesthouse-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/BanGuesthouse/releases/latest/download/BanGuesthouse.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
    "id": "Banteay",
    "name": "Banteay",
    "native": "បន្ទាយ",
@@ -65,6 +88,52 @@
    "site": "https://rcampbellbassac.github.io/Banteay/",
    "woff2": "https://rcampbellbassac.github.io/Banteay/fonts/Banteay-Regular.woff2",
    "download": "https://github.com/rcampbellbassac/Banteay/releases/latest/download/Banteay.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "BlueMarketBrush",
+   "name": "Blue Market Brush",
+   "native": "ຫຼັກ 35",
+   "native_lang": "lo",
+   "category": "brush",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Broad, friendly market-sign brush: soft bowls, bulbous loop heads, slightly uneven widths.",
+   "repo": "https://github.com/rcampbellbassac/BlueMarketBrush",
+   "site": "https://rcampbellbassac.github.io/BlueMarketBrush/",
+   "woff2": "https://rcampbellbassac.github.io/BlueMarketBrush/fonts/BlueMarketBrush-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/BlueMarketBrush/releases/latest/download/BlueMarketBrush.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "CeruleanOrnament",
+   "name": "Cerulean Ornament",
+   "native": "ຮ້ານຕັດຜົມ",
+   "native_lang": "lo",
+   "category": "fancy",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Mural calligraphy: big thick-to-thin sweeps, curled heads.",
+   "repo": "https://github.com/rcampbellbassac/CeruleanOrnament",
+   "site": "https://rcampbellbassac.github.io/CeruleanOrnament/",
+   "woff2": "https://rcampbellbassac.github.io/CeruleanOrnament/fonts/CeruleanOrnament-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/CeruleanOrnament/releases/latest/download/CeruleanOrnament.zip",
    "license": "OFL-1.1",
    "made_by": "Robert Campbell, Claude",
    "updated": "2026-10-23"
@@ -93,6 +162,29 @@
    "updated": "2026-10-23"
   },
   {
+   "id": "CivicMonoline",
+   "name": "Civic Monoline",
+   "native": "ໂຮງຮຽນ",
+   "native_lang": "lo",
+   "category": "painted",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Upright public-information lettering: even strokes, open forms, clear raised marks.",
+   "repo": "https://github.com/rcampbellbassac/CivicMonoline",
+   "site": "https://rcampbellbassac.github.io/CivicMonoline/",
+   "woff2": "https://rcampbellbassac.github.io/CivicMonoline/fonts/CivicMonoline-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/CivicMonoline/releases/latest/download/CivicMonoline.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
    "id": "DekNoi",
    "name": "Dek Noi",
    "native": "ເດັກນ້ອຍ",
@@ -116,6 +208,29 @@
    "updated": "2026-10-23"
   },
   {
+   "id": "ForestWeathered",
+   "name": "Forest Weathered",
+   "native": "ໝາກກໍ່",
+   "native_lang": "lo",
+   "category": "brush",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Outdoor rustic brush lettering on green-painted wood: sweeping rounded contours, spurred terminals.",
+   "repo": "https://github.com/rcampbellbassac/ForestWeathered",
+   "site": "https://rcampbellbassac.github.io/ForestWeathered/",
+   "woff2": "https://rcampbellbassac.github.io/ForestWeathered/fonts/ForestWeathered-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/ForestWeathered/releases/latest/download/ForestWeathered.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
    "id": "Hankha",
    "name": "Hankha",
    "native": "ຮ້ານຄ້າ",
@@ -134,6 +249,29 @@
    "site": "https://rcampbellbassac.github.io/Hankha/",
    "woff2": "https://rcampbellbassac.github.io/Hankha/fonts/Hankha-Regular.woff2",
    "download": "https://github.com/rcampbellbassac/Hankha/releases/latest/download/Hankha.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "HuayTem",
+   "name": "Huay Tem",
+   "native": "ຫ້ວຍເຕັມ",
+   "native_lang": "lo",
+   "category": "script",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Flourished school-wall lettering: tall loops, long swept tails on ຖ ງ ຽ, crisp brush entry ticks.",
+   "repo": "https://github.com/rcampbellbassac/HuayTem",
+   "site": "https://rcampbellbassac.github.io/HuayTem/",
+   "woff2": "https://rcampbellbassac.github.io/HuayTem/fonts/HuayTem-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/HuayTem/releases/latest/download/HuayTem.zip",
    "license": "OFL-1.1",
    "made_by": "Robert Campbell, Claude",
    "updated": "2026-10-23"
@@ -323,6 +461,29 @@
    "updated": "2026-10-23"
   },
   {
+   "id": "Paksong",
+   "name": "Paksong",
+   "native": "ປາກຊ່ອງ",
+   "native_lang": "lo",
+   "category": "handwritten",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Soft hand-painted humanist lettering: gently flared ends, elastic curves, compact Lao bowls, slight forward motion.",
+   "repo": "https://github.com/rcampbellbassac/Paksong",
+   "site": "https://rcampbellbassac.github.io/Paksong/",
+   "woff2": "https://rcampbellbassac.github.io/Paksong/fonts/Paksong-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/Paksong/releases/latest/download/Paksong.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
    "id": "Phsar",
    "name": "Phsar",
    "native": "ផ្សារ",
@@ -364,6 +525,29 @@
    "site": "https://rcampbellbassac.github.io/PreahNeak/",
    "woff2": "https://rcampbellbassac.github.io/PreahNeak/fonts/PreahNeak-Regular.woff2",
    "download": "https://github.com/rcampbellbassac/PreahNeak/releases/latest/download/PreahNeak.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "RoadsideMenu",
+   "name": "Roadside Menu",
+   "native": "ຮ້ານອາຫານ",
+   "native_lang": "lo",
+   "category": "script",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Warm semi-cursive resort signpost lettering: lighter brush gesture, tapered ends, slight forward movement.",
+   "repo": "https://github.com/rcampbellbassac/RoadsideMenu",
+   "site": "https://rcampbellbassac.github.io/RoadsideMenu/",
+   "woff2": "https://rcampbellbassac.github.io/RoadsideMenu/fonts/RoadsideMenu-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/RoadsideMenu/releases/latest/download/RoadsideMenu.zip",
    "license": "OFL-1.1",
    "made_by": "Robert Campbell, Claude",
    "updated": "2026-10-23"
@@ -415,6 +599,75 @@
    "updated": "2026-10-23"
   },
   {
+   "id": "SuanAhan",
+   "name": "Suan Ahan",
+   "native": "ສວນອາຫານ",
+   "native_lang": "lo",
+   "category": "painted",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Blue shop sign: heavy geometric vernacular, nearly straight stems, big closed bowls, compact heads.",
+   "repo": "https://github.com/rcampbellbassac/SuanAhan",
+   "site": "https://rcampbellbassac.github.io/SuanAhan/",
+   "woff2": "https://rcampbellbassac.github.io/SuanAhan/fonts/SuanAhan-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/SuanAhan/releases/latest/download/SuanAhan.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "Suksa",
+   "name": "Suksa",
+   "native": "ສຶກສາ",
+   "native_lang": "lo",
+   "category": "script",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Narrow, light school-board script: monoline strokes, tall loops on ໂ ໃ, long tails on ງ ຽ ຊ.",
+   "repo": "https://github.com/rcampbellbassac/Suksa",
+   "site": "https://rcampbellbassac.github.io/Suksa/",
+   "woff2": "https://rcampbellbassac.github.io/Suksa/fonts/Suksa-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/Suksa/releases/latest/download/Suksa.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "TadFane",
+   "name": "Tad Fane",
+   "native": "ຕາດຟານ",
+   "native_lang": "lo",
+   "category": "painted",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: One family from two photos of the same Tad Fane resort sign (studies 06 and 07, pack 26 and 27): extra-heavy rounded Lao with big round counters.",
+   "repo": "https://github.com/rcampbellbassac/TadFane",
+   "site": "https://rcampbellbassac.github.io/TadFane/",
+   "woff2": "https://rcampbellbassac.github.io/TadFane/fonts/TadFane-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/TadFane/releases/latest/download/TadFane.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
    "id": "Talat",
    "name": "Talat",
    "native": "ຕະຫຼາດ",
@@ -438,6 +691,75 @@
    "updated": "2026-10-23"
   },
   {
+   "id": "TerracottaRounded",
+   "name": "Terracotta Rounded",
+   "native": "ສະບາຍດີ",
+   "native_lang": "lo",
+   "category": "painted",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Rounded orange-painted Lao on a pavement sign: soft round stroke ends, generous bowls, even weight.",
+   "repo": "https://github.com/rcampbellbassac/TerracottaRounded",
+   "site": "https://rcampbellbassac.github.io/TerracottaRounded/",
+   "woff2": "https://rcampbellbassac.github.io/TerracottaRounded/fonts/TerracottaRounded-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/TerracottaRounded/releases/latest/download/TerracottaRounded.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "Thammasat",
+   "name": "Thammasat",
+   "native": "ທຳມະຊາດ",
+   "native_lang": "lo",
+   "category": "painted",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Friendly painted park-sign lettering: round heads, generous loops, even stroke.",
+   "repo": "https://github.com/rcampbellbassac/Thammasat",
+   "site": "https://rcampbellbassac.github.io/Thammasat/",
+   "woff2": "https://rcampbellbassac.github.io/Thammasat/fonts/Thammasat-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/Thammasat/releases/latest/download/Thammasat.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "ThangTan",
+   "name": "Thang Tan",
+   "native": "ທາງຕັນ",
+   "native_lang": "lo",
+   "category": "painted",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Red directional sign: heavy rounded display letters with flat-ended stems and big soft bowls.",
+   "repo": "https://github.com/rcampbellbassac/ThangTan",
+   "site": "https://rcampbellbassac.github.io/ThangTan/",
+   "woff2": "https://rcampbellbassac.github.io/ThangTan/fonts/ThangTan-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/ThangTan/releases/latest/download/ThangTan.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
    "id": "TukTuk",
    "name": "Tuk Tuk",
    "native": "ตุ๊กตุ๊ก",
@@ -456,6 +778,29 @@
    "site": "https://rcampbellbassac.github.io/TukTuk/",
    "woff2": "https://rcampbellbassac.github.io/TukTuk/fonts/TukTuk-Regular.woff2",
    "download": "https://github.com/rcampbellbassac/TukTuk/releases/latest/download/TukTuk.zip",
+   "license": "OFL-1.1",
+   "made_by": "Robert Campbell, Claude",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "VermilionHeritage",
+   "name": "Vermilion Heritage",
+   "native": "ດອກໄມ້",
+   "native_lang": "lo",
+   "category": "traditional",
+   "scripts": [
+    "lo",
+    "th",
+    "km",
+    "latn"
+   ],
+   "status": "beta",
+   "version": "0.100",
+   "description": "From a hand-painted Lao sign: Tall, narrow heritage sign-painting with moderate contrast and small carved curls.",
+   "repo": "https://github.com/rcampbellbassac/VermilionHeritage",
+   "site": "https://rcampbellbassac.github.io/VermilionHeritage/",
+   "woff2": "https://rcampbellbassac.github.io/VermilionHeritage/fonts/VermilionHeritage-Regular.woff2",
+   "download": "https://github.com/rcampbellbassac/VermilionHeritage/releases/latest/download/VermilionHeritage.zip",
    "license": "OFL-1.1",
    "made_by": "Robert Campbell, Claude",
    "updated": "2026-10-23"
