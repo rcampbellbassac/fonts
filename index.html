@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lao Thai Khmer Fonts</title>
+<meta name="description" content="Every free display font for Lao, Thai, Khmer and English in one place: live samples, pages, source and downloads.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+@font-face{font-family:"Kamphaeng";src:url("https://rcampbellbassac.github.io/Kamphaeng/fonts/Kamphaeng-Regular.woff2") format("woff2");font-display:swap}
+:root{
+  --sign:#1f3c96; --sign-ink:#f6f5ef; --paper:#f4f5f8; --card:#ffffff; --ink:#141a2e; --muted:#5d6680;
+  --line:#d7dbe6; --gold:#e8a317; --gold-ink:#3a2700; --focus:#e8a317;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --sign:#16296b; --sign-ink:#f1f0e8; --paper:#0f1630; --card:#151d3d; --ink:#eef0f7; --muted:#9aa3c0;
+  --line:#2a3560; --gold:#f0b43a; --gold-ink:#2a1c00;}}
+:root[data-theme="dark"]{--sign:#16296b; --sign-ink:#f1f0e8; --paper:#0f1630; --card:#151d3d; --ink:#eef0f7; --muted:#9aa3c0; --line:#2a3560; --gold:#f0b43a; --gold-ink:#2a1c00}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit}
+.band{background:var(--sign);color:var(--sign-ink);padding:40px 16px 34px;border-bottom:6px solid var(--gold)}
+.band .in,.bar .in,main{max-width:1180px;margin:0 auto}
+.band h1{font:clamp(44px,9vw,104px)/1.15 "Kamphaeng",system-ui,sans-serif;margin:0;letter-spacing:.01em}
+.band h1 span{display:inline-block;margin-right:.35em}
+.band p{max-width:62ch;margin:14px 0 0;font-size:18px;opacity:.92}
+.bar{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--line);padding:12px 16px}
+.bar .in{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.seg{display:flex;border:1px solid var(--line);background:var(--card)}
+.seg button,.chips button{font:inherit;font-size:14px;border:0;background:transparent;color:var(--ink);padding:7px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--sign);color:var(--sign-ink)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 12px}
+.chips button[aria-pressed="true"]{background:var(--gold);color:var(--gold-ink);border-color:var(--gold)}
+.own{flex:1 1 220px;display:flex}
+.own input{flex:1;min-width:0;font:inherit;padding:8px 10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.size{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--muted)}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+main{padding:8px 16px 80px}
+.count{color:var(--muted);font-size:14px;margin:14px 0 4px}
+.font{background:var(--card);border:1px solid var(--line);margin:14px 0;padding:18px 20px 16px}
+.sample{font-size:var(--size,64px);line-height:1.55;margin:0 0 10px;overflow-wrap:anywhere;min-height:1.6em;
+  transition:opacity .3s}
+.font:not(.loaded) .sample{opacity:.25}
+.meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;border-top:1px solid var(--line);padding-top:12px}
+.meta h2{margin:0;font-size:20px}
+.native{color:var(--muted);font-size:18px}
+.tag{font-size:13px;border:1px solid var(--line);padding:1px 9px;border-radius:999px;color:var(--muted)}
+.tag.beta{border-color:var(--gold);color:var(--ink)}
+.desc{flex-basis:100%;margin:2px 0 0;color:var(--muted);max-width:80ch}
+.links{margin-left:auto;display:flex;gap:14px;font-size:15px}
+.links a{text-decoration-thickness:1px;text-underline-offset:3px}
+.links a.dl{font-weight:600}
+.empty{color:var(--muted);padding:40px 0}
+footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px;margin-top:30px}
+@media (max-width:640px){.links{margin-left:0;flex-basis:100%}.font{padding:14px}.bar{position:static}.sample{font-size:var(--size,40px)}}
+@media (prefers-reduced-motion:reduce){.sample{transition:none}}
+</style>
+</head>
+<body>
+<header class="band"><div class="in">
+  <h1 lang="mul"><span>Fonts</span><span lang="lo">ຟອນ</span><span lang="th">ฟอนต์</span><span lang="km">ពុម្ពអក្សរ</span></h1>
+  <p id="lede">Free display fonts for Lao, Thai, Khmer and English. Every font covers all four scripts and is
+  free to use, share and change under the SIL Open Font License.</p>
+</div></header>
+<nav class="bar" aria-label="Sample controls"><div class="in">
+  <div class="seg" role="group" aria-label="Sample language" id="langs"></div>
+  <div class="chips" role="group" aria-label="Style" id="cats"></div>
+  <label class="own"><span class="visually-hidden" hidden>Your text</span>
+    <input id="own" type="text" placeholder="Type your own text" aria-label="Type your own sample text"></label>
+  <label class="size">Size <input id="size" type="range" min="28" max="140" value="64" aria-label="Sample size"></label>
+</div></nav>
+<main>
+  <p class="count" id="count" aria-live="polite"></p>
+  <div id="list"></div>
+  <p class="empty" id="empty" hidden>No font has that style yet. Choose another style.</p>
+  <footer>The list comes from <a href="https://github.com/rcampbellbassac/fonts/blob/main/fonts.json">fonts.json</a>.
+  Each font has its own page with a full character set, install steps and the story behind its name.</footer>
+</main>
+<script>
+const SAMPLES = {
+  native: null,
+  lo: "ສະບາຍດີ ນ້ຳຕົກຕາດກວາງຊີ ໐໑໒໓",
+  th: "สวัสดี น้ำตกเอราวัณ ๐๑๒๓",
+  km: "សួស្តី ប្រាសាទអង្គរវត្ត ០១២៣",
+  latn: "Waterfalls & Temples 2026"
+};
+const LANG_LABEL = {native: "Its own language", lo: "Lao", th: "Thai", km: "Khmer", latn: "English"};
+const CAT_LABEL = {all: "All styles", script: "Script", handwritten: "Handwritten", painted: "Painted", traditional: "Traditional",
+  fancy: "Fancy", stencil: "Stencil", brush: "Brush", sans: "Sans", serif: "Serif"};
+const STATUS_LABEL = {draft: "Draft", beta: "Beta", stable: "Stable", retired: "Retired"};
+const LANG_OF = {lo: "lo", th: "th", km: "km", latn: "en"};
+let state = {lang: "native", cat: "all", own: ""};
+try { const s = JSON.parse(localStorage.getItem("fonts-view") || "{}"); Object.assign(state, {lang: s.lang || "native", cat: s.cat || "all"}); } catch (e) {}
+const $ = id => document.getElementById(id);
+let fonts = [];
+
+function save() { try { localStorage.setItem("fonts-view", JSON.stringify({lang: state.lang, cat: state.cat})); } catch (e) {} }
+
+function sampleFor(f) {
+  if (state.own.trim()) return {text: state.own, lang: ""};
+  const l = state.lang === "native" ? f.native_lang : state.lang;
+  return {text: SAMPLES[l] || SAMPLES.latn, lang: LANG_OF[l] || ""};
+}
+
+function buttons(el, items, key) {
+  el.innerHTML = "";
+  for (const [v, label] of items) {
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = label; b.setAttribute("aria-pressed", String(state[key] === v));
+    b.onclick = () => { state[key] = v; save(); render(); };
+    el.appendChild(b);
+  }
+}
+
+const io = "IntersectionObserver" in window ? new IntersectionObserver(es => {
+  for (const e of es) if (e.isIntersecting) { load(e.target); io.unobserve(e.target); }
+}, {rootMargin: "400px"}) : null;
+
+const loaded = new Map();
+function load(card) {
+  const f = fonts.find(x => x.id === card.dataset.id);
+  if (!loaded.has(f.id)) {
+    const ff = new FontFace("cat-" + f.id, `url(${f.woff2}) format("woff2")`, {display: "swap"});
+    loaded.set(f.id, ff.load().then(x => { document.fonts.add(x); return true; }).catch(() => false));
+  }
+  loaded.get(f.id).then(ok => { card.classList.add("loaded"); if (!ok) card.querySelector(".sample").title = "Font failed to load"; });
+}
+
+function card(f) {
+  const el = document.createElement("article");
+  el.className = "font"; el.dataset.id = f.id;
+  const s = sampleFor(f);
+  el.innerHTML = `<p class="sample" style="font-family:'cat-${f.id}',system-ui"></p>
+  <div class="meta"><h2></h2><span class="native"></span><span class="tag"></span><span class="tag ${f.status}"></span><span class="tag scripts"></span>
+  <span class="links"><a class="site">Page</a><a class="repo">Source</a><a class="dl">Download</a></span><p class="desc"></p></div>`;
+  const p = el.querySelector(".sample"); p.textContent = s.text; if (s.lang) p.lang = s.lang;
+  el.querySelector("h2").textContent = f.name;
+  const nat = el.querySelector(".native"); nat.textContent = f.native; nat.lang = f.native_lang;
+  const tags = el.querySelectorAll(".tag");
+  tags[0].textContent = CAT_LABEL[f.category] || f.category;
+  tags[1].textContent = `${STATUS_LABEL[f.status] || f.status} ${f.version}`;
+  const SCR = {lo: "Lao", th: "Thai", km: "Khmer", latn: "Latin"};
+  el.querySelector(".scripts").textContent = f.scripts.length === 4 ? "Lao, Thai, Khmer, Latin" : f.scripts.map(x => SCR[x] || x).join(", ");
+  el.querySelector(".site").href = f.site;
+  el.querySelector(".repo").href = f.repo;
+  const dl = el.querySelector(".dl"); dl.href = f.download; dl.setAttribute("aria-label", `Download ${f.name}`);
+  el.querySelector(".desc").textContent = f.description;
+  if (loaded.has(f.id)) load(el); else if (io) io.observe(el); else load(el);
+  return el;
+}
+
+function render() {
+  const cats = ["all", ...Object.keys(CAT_LABEL).filter(c => fonts.some(f => f.category === c))];
+  buttons($("langs"), Object.entries(LANG_LABEL), "lang");
+  buttons($("cats"), cats.map(c => [c, CAT_LABEL[c]]), "cat");
+  const shown = fonts.filter(f => state.cat === "all" || f.category === state.cat);
+  const list = $("list"); list.innerHTML = "";
+  shown.forEach(f => list.appendChild(card(f)));
+  $("empty").hidden = shown.length > 0;
+  $("count").textContent = `${shown.length} of ${fonts.length} fonts`;
+}
+
+$("own").addEventListener("input", e => { state.own = e.target.value;
+  document.querySelectorAll(".font").forEach(c => { const f = fonts.find(x => x.id === c.dataset.id), s = sampleFor(f), p = c.querySelector(".sample"); p.textContent = s.text; p.lang = s.lang; }); });
+$("size").addEventListener("input", e => document.documentElement.style.setProperty("--size", e.target.value + "px"));
+
+fetch("fonts.json").then(r => r.json()).then(d => {
+  fonts = d.fonts.filter(f => f.status !== "retired");
+  $("lede").textContent = `${fonts.length} free display fonts for Lao, Thai, Khmer and English. All are free to use, share and change under the SIL Open Font License.`;
+  render();
+}).catch(() => { $("count").textContent = "The font list could not be loaded. Reload the page to try again."; });
+</script>
+</body>
+</html>
