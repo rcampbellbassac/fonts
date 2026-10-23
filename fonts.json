@@ -358,8 +358,8 @@
     "latn"
    ],
    "status": "beta",
-   "version": "0.100",
-   "description": "Robert's hand-drawn Lao display font, named for the waterfall near Luang Prabang, now with Thai, Khmer and Latin.",
+   "version": "0.200",
+   "description": "Robert's hand-drawn Lao display font from the Kouang Si waterfall sign, with Thai, Khmer and Latin in the same round, painted style.",
    "repo": "https://github.com/rcampbellbassac/KouangSiWaterfall",
    "site": "https://rcampbellbassac.github.io/KouangSiWaterfall/",
    "woff2": "https://rcampbellbassac.github.io/KouangSiWaterfall/fonts/KouangSiWaterfall-Regular.woff2",
