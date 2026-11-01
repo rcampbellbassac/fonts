@@ -381,7 +381,7 @@
     "latn"
    ],
    "status": "beta",
-   "version": "0.200",
+   "version": "0.210",
    "description": "Robert's hand-drawn Lao display font from the Kouang Si waterfall sign, with Thai, Khmer and Latin in the same round, painted style.",
    "repo": "https://github.com/rcampbellbassac/KouangSiWaterfall",
    "site": "https://rcampbellbassac.github.io/KouangSiWaterfall/",
@@ -389,7 +389,7 @@
    "download": "https://github.com/rcampbellbassac/KouangSiWaterfall/releases/latest/download/KouangSiWaterfall.zip",
    "license": "OFL-1.1",
    "made_by": "Robert Campbell (Lao), Claude (Thai, Khmer, Latin)",
-   "updated": "2026-10-23"
+   "updated": "2026-11-01"
   },
   {
    "id": "Krathong",
