@@ -8,14 +8,19 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <style>
 @font-face{font-family:"Kamphaeng";src:url("https://rcampbellbassac.github.io/Kamphaeng/fonts/Kamphaeng-Regular.woff2") format("woff2");font-display:swap}
+/* Tetra6 "Signal" palette (dark first; light when the device or the viewer asks) */
 :root{
-  --sign:#1f3c96; --sign-ink:#f6f5ef; --paper:#f4f5f8; --card:#ffffff; --ink:#141a2e; --muted:#5d6680;
-  --line:#d7dbe6; --gold:#e8a317; --gold-ink:#3a2700; --focus:#e8a317;
+  --sign:#080A0D; --sign-ink:#F5F7F9; --paper:#0d1014; --card:#12161B; --ink:#F5F7F9; --muted:#B8C0C8;
+  --line:#252B33; --gold:#E21B2D; --gold-ink:#ffffff; --focus:#F5F7F9; color-scheme:dark;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --sign:#16296b; --sign-ink:#f1f0e8; --paper:#0f1630; --card:#151d3d; --ink:#eef0f7; --muted:#9aa3c0;
-  --line:#2a3560; --gold:#f0b43a; --gold-ink:#2a1c00;}}
-:root[data-theme="dark"]{--sign:#16296b; --sign-ink:#f1f0e8; --paper:#0f1630; --card:#151d3d; --ink:#eef0f7; --muted:#9aa3c0; --line:#2a3560; --gold:#f0b43a; --gold-ink:#2a1c00}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){
+  --paper:#F5F7F9; --card:#ffffff; --ink:#080A0D; --muted:#3D4651; --line:#D7DCE2; --gold:#C8172A; --focus:#080A0D; color-scheme:light;}}
+:root[data-theme="light"]{--paper:#F5F7F9; --card:#ffffff; --ink:#080A0D; --muted:#3D4651; --line:#D7DCE2; --gold:#C8172A; --focus:#080A0D; color-scheme:light}
+.t6top{display:flex;align-items:center;gap:12px;margin-bottom:22px}
+.t6top a{display:inline-flex;color:var(--sign-ink)}.t6top svg{height:22px;width:auto;display:block}
+.t6top span{font-size:14px;font-weight:600;color:#B8C0C8;padding-left:12px;border-left:1px solid #252B33}
+.t6credit{display:inline-flex;color:var(--ink);align-items:center;gap:7px;text-decoration:none;margin-top:10px}
+.t6credit svg{height:13px;width:auto}
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:inherit}
@@ -59,6 +64,7 @@ footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);paddin
 </head>
 <body>
 <header class="band"><div class="in">
+  <div class="t6top"><a href="https://tetra6.com/" aria-label="tetra6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-41 -1551 6275 1633" width="85" height="22" role="img" aria-label="tetra6"><title>tetra6</title><path fill="currentColor" d="M718.0 -1118H517.0V-1384H168.0V-1118H20.0V-859H168.0V-311C168.0 -98 293.0 16 530.0 16C596.0 16 670.0 9 748.0 -13L703.0 -267C684.0 -262 630.0 -255 606.0 -255C543.0 -255 517.0 -283 517.0 -342V-859H718.0Z M1418.0 21C1689.0 21 1872.0 -102 1928.0 -296L1617.0 -347C1589.0 -272 1518.0 -232 1424.0 -232C1292.0 -232 1203.0 -312 1197.0 -474H1944.0V-562C1944.0 -931 1719.0 -1132 1405.0 -1132C1069.0 -1132 854.0 -900 854.0 -555C854.0 -197 1067.0 21 1418.0 21ZM1199.0 -677C1212.0 -800 1285.0 -879 1408.0 -879C1530.0 -879 1599.0 -804 1613.0 -677Z M2730.0 -1118H2529.0V-1384H2180.0V-1118H2032.0V-859H2180.0V-311C2180.0 -98 2305.0 16 2542.0 16C2608.0 16 2682.0 9 2760.0 -13L2715.0 -267C2696.0 -262 2642.0 -255 2618.0 -255C2555.0 -255 2529.0 -283 2529.0 -342V-859H2730.0Z M2909.0 0H3258.0V-610C3258.0 -744 3353.0 -834 3482.0 -834C3524.0 -834 3587.0 -827 3620.0 -816V-1120C3591.0 -1127 3554.0 -1132 3521.0 -1132C3398.0 -1132 3300.0 -1061 3260.0 -914H3248.0V-1118H2909.0Z M4082.0 20C4237.0 20 4345.0 -42 4406.0 -157H4415.0V0H4743.0V-759C4743.0 -999 4524.0 -1132 4246.0 -1132C3966.0 -1132 3790.0 -1001 3746.0 -810L4062.0 -769C4081.0 -839 4146.0 -884 4243.0 -884C4338.0 -884 4395.0 -840 4395.0 -763V-759C4395.0 -690 4319.0 -676 4130.0 -660C3904.0 -641 3714.0 -558 3714.0 -310C3714.0 -89 3867.0 20 4082.0 20ZM4188.0 -211C4104.0 -211 4044.0 -251 4044.0 -326C4044.0 -400 4102.0 -444 4205.0 -459C4270.0 -469 4358.0 -484 4398.0 -505V-398C4398.0 -288 4305.0 -211 4188.0 -211Z"/><path fill="#E21B2D" d="M5537.52 20C5877.52 20 6111.52 -194 6111.52 -505C6111.52 -781 5922.52 -982 5655.52 -982C5489.52 -982 5341.52 -902 5278.52 -768H5269.52C5269.52 -1037 5360.52 -1208 5544.52 -1208C5646.52 -1208 5725.52 -1157 5747.52 -1061H6094.52C6066.52 -1311 5854.52 -1510 5544.52 -1510C5167.52 -1510 4920.52 -1210 4920.52 -718C4920.52 -175 5213.52 20 5537.52 20ZM5534.52 -253C5401.52 -253 5302.52 -358 5302.52 -493C5302.52 -628 5403.52 -734 5535.52 -734C5671.52 -734 5769.52 -630 5769.52 -494C5769.52 -356 5669.52 -253 5534.52 -253Z"/></svg></a><span>Fonts</span></div>
   <h1 lang="mul"><span>Fonts</span><span lang="lo">ຟອນ</span><span lang="th">ฟอนต์</span><span lang="km">ពុម្ពអក្សរ</span></h1>
   <p id="lede">Free display fonts for Lao, Thai, Khmer and English. Every font covers all four scripts and is
   free to use, share and change under the SIL Open Font License.</p>
@@ -75,7 +81,8 @@ footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);paddin
   <div id="list"></div>
   <p class="empty" id="empty" hidden>No font has that style yet. Choose another style.</p>
   <footer>The list comes from <a href="https://github.com/rcampbellbassac/fonts/blob/main/fonts.json">fonts.json</a>.
-  Each font has its own page with a full character set, install steps and the story behind its name.</footer>
+  Each font has its own page with a full character set, install steps and the story behind its name.<br>
+  <a class="t6credit" href="https://tetra6.com/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-41 -1551 6275 1633" width="50" height="13" role="img" aria-label="tetra6"><title>tetra6</title><path fill="currentColor" d="M718.0 -1118H517.0V-1384H168.0V-1118H20.0V-859H168.0V-311C168.0 -98 293.0 16 530.0 16C596.0 16 670.0 9 748.0 -13L703.0 -267C684.0 -262 630.0 -255 606.0 -255C543.0 -255 517.0 -283 517.0 -342V-859H718.0Z M1418.0 21C1689.0 21 1872.0 -102 1928.0 -296L1617.0 -347C1589.0 -272 1518.0 -232 1424.0 -232C1292.0 -232 1203.0 -312 1197.0 -474H1944.0V-562C1944.0 -931 1719.0 -1132 1405.0 -1132C1069.0 -1132 854.0 -900 854.0 -555C854.0 -197 1067.0 21 1418.0 21ZM1199.0 -677C1212.0 -800 1285.0 -879 1408.0 -879C1530.0 -879 1599.0 -804 1613.0 -677Z M2730.0 -1118H2529.0V-1384H2180.0V-1118H2032.0V-859H2180.0V-311C2180.0 -98 2305.0 16 2542.0 16C2608.0 16 2682.0 9 2760.0 -13L2715.0 -267C2696.0 -262 2642.0 -255 2618.0 -255C2555.0 -255 2529.0 -283 2529.0 -342V-859H2730.0Z M2909.0 0H3258.0V-610C3258.0 -744 3353.0 -834 3482.0 -834C3524.0 -834 3587.0 -827 3620.0 -816V-1120C3591.0 -1127 3554.0 -1132 3521.0 -1132C3398.0 -1132 3300.0 -1061 3260.0 -914H3248.0V-1118H2909.0Z M4082.0 20C4237.0 20 4345.0 -42 4406.0 -157H4415.0V0H4743.0V-759C4743.0 -999 4524.0 -1132 4246.0 -1132C3966.0 -1132 3790.0 -1001 3746.0 -810L4062.0 -769C4081.0 -839 4146.0 -884 4243.0 -884C4338.0 -884 4395.0 -840 4395.0 -763V-759C4395.0 -690 4319.0 -676 4130.0 -660C3904.0 -641 3714.0 -558 3714.0 -310C3714.0 -89 3867.0 20 4082.0 20ZM4188.0 -211C4104.0 -211 4044.0 -251 4044.0 -326C4044.0 -400 4102.0 -444 4205.0 -459C4270.0 -469 4358.0 -484 4398.0 -505V-398C4398.0 -288 4305.0 -211 4188.0 -211Z"/><path fill="#E21B2D" d="M5537.52 20C5877.52 20 6111.52 -194 6111.52 -505C6111.52 -781 5922.52 -982 5655.52 -982C5489.52 -982 5341.52 -902 5278.52 -768H5269.52C5269.52 -1037 5360.52 -1208 5544.52 -1208C5646.52 -1208 5725.52 -1157 5747.52 -1061H6094.52C6066.52 -1311 5854.52 -1510 5544.52 -1510C5167.52 -1510 4920.52 -1210 4920.52 -718C4920.52 -175 5213.52 20 5537.52 20ZM5534.52 -253C5401.52 -253 5302.52 -358 5302.52 -493C5302.52 -628 5403.52 -734 5535.52 -734C5671.52 -734 5769.52 -630 5769.52 -494C5769.52 -356 5669.52 -253 5534.52 -253Z"/></svg><span style="opacity:.5">·</span>Fonts</a></footer>
 </main>
 <script>
 const SAMPLES = {
